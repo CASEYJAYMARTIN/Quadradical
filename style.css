@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: courier;
+    font-size: 12px;
+    line-height: 1.5
+}
+
+body {
+    padding: 0 1rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h4 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+}
+h3, h6 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 2rem;
+}
+h5 {
+    font-size: 1.5rem;
+}
+h6 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+p {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.75rem;
+}
