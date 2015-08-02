@@ -1,3 +1,3 @@
-![Quadradical logo](./quadradical.png)
+![Quadrivial logo](./quadrivial.png)
 
-# Quadradical
+# Quadrivial
