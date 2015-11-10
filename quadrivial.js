@@ -7,11 +7,11 @@
 
       style.innerHTML =
         '.q-ui {' +
-          'bottom: 48px;' +
+          'bottom: 24px;' +
           'font-family: courier;' +
           'font-weight: bold;' +
           'position: fixed;' +
-          'right: 48px;' +
+          'right: 24px;' +
           'z-index: 999999997' +
         '}' +
         '.q-ui * {' +
@@ -20,20 +20,15 @@
         '.q-ui label {' +
           'background:' +
             "url('data:image/svg+xml;utf8," +
-            '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,11,11">' +
-              '<path d="M11,11L5,11A5,5,0,0,1,0,6L0,5A5,5,0,0,1,5,0L6,0A5,5,0,0,1,11,5ZM10,6L10,5A4,4,0,0,0,6,1L5,1' +
-              'A4,4,0,0,0,1,5L1,6A4,4,0,0,0,5,10L6,10L6,9L5,9A3,3,0,0,1,2,6L2,5A3,3,0,0,1,5,2L6,2A3,3,0,0,1,9,5' +
-              'L9,6M8,6L8,5A2,2,0,0,0,6,3L5,3A2,2,0,0,0,3,5L3,6A2,2,0,0,0,5,8L6,8L6,7L5,7A1,1,0,0,1,4,6L4,5' +
-              'A1,1,0,0,1,5,4L6,4A1,1,0,0,1,7,5L7,6M6,6L6,5L5,5L5,6ZM7,7L7,8L8,8L8,7ZM7,9L7,10L8,10L8,9ZM9,9L9,10' +
-              'L10,10L10,9ZM9,7L9,8L10,8L10,7Z"/>' +
-            '</svg>' +
+              '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,24,24"><defs><linearGradient id="g" x2="0%" y2="100%"><stop offset="0%" stop-color="#008040"/><stop offset="20%" stop-color="#007F80"/><stop offset="40%" stop-color="#004080"/><stop offset="80%" stop-color="#000080"/><stop offset="100%" stop-color="#400080"/></linearGradient></defs><path d="M14.875,23.5L14.875,12A2.875,2.875,0,1,0,12,14.875L23.5,14.875M17.75,23.5L17.75,12A5.75,5.75,0,1,0,12,17.75L23.5,17.75M20.625,23.5L20.625,12A8.625,8.625,0,1,0,12,20.625L23.5,20.625M23.5,23.5L23.5,12A11.5,11.5,0,1,0,12,23.5Z" fill="transparent" stroke="url(#g)"/></svg>' +
             "');" +
           'bottom: 0;' +
+          'cursor: pointer;' +  
           'display: inline-block;' +
-          'height: 54px;' +
+          'height: 48px;' +
           'position: absolute;' +
           'right: 0;' +
-          'width: 54px;' +
+          'width: 48px;' +
           'z-index: 999999999;' +
         '}' +
         '.q-ui .q-checkbox {' +
@@ -55,17 +50,18 @@
         '}' +
         '.q-ui .controls {' +
           'background: white;' +
-          'border: 1px solid black;' +
-          'height: 54px;' +
-          'line-height: 27px;' +
-          'padding: 0 0 0 9px;' +
+          'height: 48px;' +
+          'line-height: 24px;' +
+          'padding: 0 0 0 8px;' +
           'position: relative;' +
           'width: 144px;' +
           'z-index: 999999998' +
         '}' +
         '.q-ui .control {' +
           'border: none;' +
-          'width: 54px;' +
+          'padding: 0;' +
+          'line-height: 24px;' +
+          'width: 48px;' +
         '}' +
         '.q-ui .q-checkbox ~ div {' +
           'display: none;' +
